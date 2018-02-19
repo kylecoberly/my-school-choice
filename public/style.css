@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+a:visited {
+    color: inherit;
+}
+
+body {
+    color: hsl(208, 9%, 40%);
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 20px;
+    background-color: hsla(180, 3%, 93%, 0.9);
+}
+
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -3px;
+    font-weight: 300;
+}
+
+main {
+    padding: 40px 20px 80px 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+main > section {
+    max-width: 30rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    height: 120px;
+    background-color: hsla(180, 3%, 43%, 0.9);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > small {
+    align-self: end;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+}
+
+form h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form input {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 3px 3px;
+    font-size: 2rem;
+    border: none;
+}
+
+form input[type=email] {
+    box-shadow: 0 1px 10px hsl(0, 0%, 70%);
+}
+
+form input[type=submit] {
+    background-color: hsl(135, 60%, 42%);
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+form input[type=submit]:hover {
+    background-color: hsl(135, 60%, 47%);
+}
